@@ -1,0 +1,178 @@
+{
+  "id": "0cd6a18f-c7a9-4002-aeeb-c68c915033d2",
+  "version": "2.0",
+  "name": "tienda virtual",
+  "url": "http://automationpractice.com",
+  "tests": [{
+    "id": "50eea3a8-b180-40e5-8877-6898593347fe",
+    "name": "ingreso pagina",
+    "commands": [{
+      "id": "5bed63bd-74ed-452b-a49c-436a1bd53be5",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddd25553-7586-4771-9332-28dda2a5fa3d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f3cab68-d48e-4de6-8b23-0fccdbb8a2b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login > font > font",
+      "targets": [
+        ["css=.login > font > font", "css:finder"],
+        ["xpath=//header[@id='header']/div[2]/div/div/nav/div/a/font/font", "xpath:idRelative"],
+        ["xpath=//font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7455363f-129a-4e68-a2cd-0020a676badb",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ebcee7f-07b5-4816-a927-b2116aa12852",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "sneyder23@hotmail.com"
+    }, {
+      "id": "c63e62a7-d632-4c5f-999d-de85008b221a",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwd",
+      "targets": [
+        ["id=passwd", "id"],
+        ["name=passwd", "name"],
+        ["css=#passwd", "css:finder"],
+        ["xpath=//input[@id='passwd']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "f7da5fcf-bf32-4a18-ba53-fafe8fe99e3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#SubmitLogin font > font",
+      "targets": [
+        ["css=#SubmitLogin font > font", "css:finder"],
+        ["xpath=//button[@id='SubmitLogin']/span/font/font", "xpath:idRelative"],
+        ["xpath=//p[2]/button/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2b5b2094-f783-4a67-952a-e5edf121d181",
+    "name": "cambio de contraseña",
+    "commands": [{
+      "id": "545ad1c2-83f2-411b-be26-9a6596956c86",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1759853-ed2d-49ab-bdac-00e985ee9fec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c08edd4f-54c4-4eef-857d-fa1906a2f816",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login > font > font",
+      "targets": [
+        ["css=.login > font > font", "css:finder"],
+        ["xpath=//header[@id='header']/div[2]/div/div/nav/div/a/font/font", "xpath:idRelative"],
+        ["xpath=//font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d611d56-ed25-493d-a641-fd34349ef6f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lost_password font > font",
+      "targets": [
+        ["css=.lost_password font > font", "css:finder"],
+        ["xpath=//form[@id='login_form']/div/p/a/font/font", "xpath:idRelative"],
+        ["xpath=//p/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0579d2da-8ad6-4a76-992e-33ee1cddca42",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='form_forgotpassword']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1f6bff1-ee13-48e8-9efd-4ef7903d98f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='form_forgotpassword']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "sneyder23@hotmail.com"
+    }, {
+      "id": "3140f9b4-6541-4157-928e-430f31cb47de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-medium font > font",
+      "targets": [
+        ["css=.button-medium font > font", "css:finder"],
+        ["xpath=//form[@id='form_forgotpassword']/fieldset/p/button/span/font/font", "xpath:idRelative"],
+        ["xpath=//p/button/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c2c27fdb-398b-4eeb-b7bd-4bc94a6d4477",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["50eea3a8-b180-40e5-8877-6898593347fe"]
+  }],
+  "urls": ["http://automationpractice.com/"],
+  "plugins": []
+}
